@@ -1,7 +1,12 @@
 body{
     margin: 0cm;
+    font-family: 'Noto Sans', sans-serif;
 }
 
+h1,h2,h3,h4,h5{
+  font-family: 'Great Vibes', cursive;
+  /* font-family: 'Fjalla One', sans-serif; */
+}
 .cover{
     height: 400px;
     background-image: url(./img/bannerMain.jpg);
@@ -16,47 +21,11 @@ body{
     border: 0 !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-/*
-<section>
-    <div class="container mt-5 mb-5">
-      <div class="row">
-        <div class="col">
-          <!-- carta -->
-          <div class="card" style="width: 18rem;">
-            <img
-              src="./img/psicoterapia.jpg"
-              class="card-img-top"
-              alt="psicoterapia dada a un paciente"
-            />
-            <div class="card-body">
-              <h5 class="card-title">psicoterapia</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- otra carta -->
-        <div class="card" style="width: 18rem;">
-          <img
-            src="./img/licenciada.jpg"
-            class="card-img-top"
-            alt="foto de la licenciada"
-          />
-          <div class="card-body">
-            <h5 class="card-title">PSICOLOGA</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
 
-        </div>
+.card-title{
+     min-height: 3rem; 
+}
 
-      </div>
-    </div>
-  </section>
-*/
+.card-text{
+     min-height: 10rem; 
+}
